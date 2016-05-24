@@ -53,15 +53,17 @@ background-repeat:no-repeat;
 padding-top: 10em;
 padding-bottom: 10em;    
 width:900px;
-height:200px;	
+height:200px;
+
 }
+
 #menu
 {
 width:940px;
 height:69px;
 float:inherit;
 clear:both; 
-     margin-bottom: 10px;
+margin-bottom: 10px;
 }
 
 #menu ul {
@@ -97,7 +99,7 @@ clear:both;
 }
 
 #menu a:hover{
-	color:white;
+	color:#B0AE3B;
 }
 
 #content
@@ -107,14 +109,14 @@ display: block;
 height:auto;
 position: relative; 
 width: 900px;
-letter-spacing: 0.05em;    
+letter-spacing: 0.05em; 
+border-bottom: 2px solid black;    
+padding-bottom: 20px;
+margin-bottom: 20px;    
 
 }
-#para {font-style: italic;
-font-family: cursive;
-font-weight:bold;
-text-align: center;
-color: red;}
+
+
 p {
     margin: 10px;
     text-align: justify;
@@ -124,7 +126,18 @@ p {
     font-size: 1.3em;
 }
 
+#para 
 
+{
+font-style: italic;
+font-family: cursive;
+font-weight:bold;
+text-align: center;
+color: red;
+border: 3px solid #F0E68C;
+padding: 5px;
+font-size: 1.5em;
+}
 
 
 
