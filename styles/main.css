@@ -15,45 +15,43 @@ body {
 
 #container
 {
-  display: block; 
+  display:flex; 
   height:auto;
   position: relative; 
   width: 940px;
-margin-bottom: 30px;    
+margin-bottom: 10px;    
 }
 
 
 #header h1
 {
+display:block;
 position:inherit;
-text-align:right;
-margin-right: 10px;    
-font-size:30px;
+text-align:center;
+margin-right: 10px;
+font-size:40px;
 color:#B0AE3B;
-left:600px;
+left:400px;
 top:220px;
+
 }
 
 
 #header h2
 {
 position:inherit;
-text-align:right;
+text-align:center;
 margin-right: 10px;    
 color:#7E8F7C;
 left:600px;
 top:252px;
 }
 
-#header
+#headerimage
 {
-
-background-image:url(/images/mainpic.jpg);
 background-repeat:no-repeat;
-padding-top: 10em;
-padding-bottom: 10em;    
-width:900px;
-height:200px;
+padding-top: 1em;
+padding-bottom: 1em;    
 
 }
 
@@ -83,7 +81,7 @@ margin-bottom: 10px;
 
 #menu a,#menu a:visited {
 	float:left;
-	width: 222px;
+	width: 180px;
 	height: 20px;
 	display: block;
 	text-align: center;
