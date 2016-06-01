@@ -51,42 +51,6 @@
 
 
 /* For devices larger than 400px */
-@media (min-width: 400px) {
-  .container {
-    width: 97%;
-    padding: 0;
-    text-align: center;
-    color: white;
-   
-          
-    }.icons { 
-        text-align: center;
-        display: inline-block;
-		float: none;}
-    
-}
-
-
-/* For devices larger than 550px */
-@media (min-width: 550px) 
-{
-  .container {
-    width: 80%;
-    padding: 0;
-    text-align: center;
-    color: white;
-           
-    }
-    
-    }.icons { 
-        
-        text-align: center;
-        display: inline-block;
-		float: none;}    
-      
-        
-    }
-
 
      
 
@@ -141,20 +105,26 @@ letter-spacing: 0.1em;}
     
     .image2
     
-    {   
-        float:none;    
-        width: 100%; }
+    {  text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        float:none;
+     
+     }
+
     
     .blogimg{
+                
         text-align: center;
         display:block;
         float:none;
-        width: 22%;
+        width:13.33 %;
         padding: 5px 5px;
+        
     }
     
 
-    img{ border-radius: 25%;
+    img{ 
     border: 2px solid white;
     
     }
@@ -178,7 +148,8 @@ letter-spacing: 0.1em;}
         margin right:auto;
         float:none;
         margin-top: 5px;
-        width: 100%; }   
+        width: 100%; }  
+
     .blogtitle h1{ font-size: 3.5rem;}   
     .blogtitle h2 { font-size: 2.0rem;}
     
@@ -210,7 +181,16 @@ letter-spacing: 0.1em;}
         margin: 5px 5px;
             color: #FEE206;
     }
-    
+.content1 p {font-size: 20px;}
+.content2 h5{text-align: justify; 
+    font-weight: bold;
+                
+}
+.content2 p {font-size: 20px;
+} 
+.image p {text-align: center;
+font-size: 10px;
+}
  
       
 
@@ -563,3 +543,43 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+@media (min-width: 400px) {
+  .container {
+    width: 97%;
+    padding: 0;
+    text-align: center;
+    color: white;
+   
+          
+    }.icons { 
+        text-align: center;
+        display: inline-block;
+		float: none;}
+    
+}
+
+
+/* For devices larger than 550px */
+@media (min-width: 550px) 
+{
+  .container {
+    width: 80%;
+    padding: 0;
+    text-align: center;
+    color: white;
+           
+    }
+    
+   
+    
+    .icons { 
+        
+        text-align: center;
+        display: inline-block;
+		float: none;}    
+      
+        
+    }
+
+
