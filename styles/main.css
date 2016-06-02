@@ -1,31 +1,3 @@
-/*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
-
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
-
-
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -37,8 +9,7 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-    
-}
+}   
 .column,
 .columns {
   width: 100%;
@@ -46,7 +17,7 @@
   box-sizing: border-box; 
 }
 
-
+ 
 
 
 
@@ -95,43 +66,71 @@ letter-spacing: 0.1em;}
     }
     
 
-  .image
+.image
     
     {   text-align: center;
         margin-left: auto;
         margin right:auto;
         float:none;        
-        width: 100%; }
+        width: 100%;
+       
+        }
+
+.image2   {  
     
-    .image2
-    
-    {  text-align:center;
-        display: inline-block;
-        margin-left:0;
+        text-align:center;
+        display: flex;
+        margin-left:0;  
         margin-right: auto;
         float:none;
         margin-bottom: 20px;
-        ;
+        width:100%;
      
      }
 
-    
-    .blogimg{
+      .blogimg{
                 
         text-align: center;
         display:block;
         float:none;
-        width:22%;
+        width:30%;
         padding: 10px 10px;
         
     }
-    
-
-    img{ 
+img{ 
     border: 2px solid white;
-    
+     max-width: 100%;
+    width: 100%;
+    height: auto !important;
     }
-  
+
+@media (max-width:767px) {
+    .img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media (min-width:768px) {
+    .img {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    .img {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    .img {
+        max-width: 380px;
+        max-height: 380px;
+    }
+}
     .title              {
         color: #FEE206;  
         text-align: center;
@@ -141,6 +140,7 @@ letter-spacing: 0.1em;}
         margin-top: 5px;
         width: 100%; }
     
+
     .blogtitle
     
     {
@@ -152,27 +152,18 @@ letter-spacing: 0.1em;}
         float:none;
         margin-top: 5px;
         width: 100%; }  
+ .blogtitle h1{ font-size: 3.5rem;}   
+    .blogtitle h2 { font-size: 2.5rem;}
 
-    .blogtitle h1{ font-size: 3.5rem;}   
-    .blogtitle h2 { font-size: 2.0rem;}
-    
-    }
-    .content{
-        color: white;
-        
-    }
 .content p{font-size: 2.0rem; }
     .footer {
         text-align: center;
         display: block;
 /*		margin: 0 auto 24px;*/
 		float:none;
-        width: 100%;
-        
-        
-          }
-    
- .icons { 
+        width: 100%;}
+
+.icons { 
         text-align: center;
         display: inline-block;
 		float: none;}
@@ -183,31 +174,46 @@ letter-spacing: 0.1em;}
         width:100%; 
         padding: 5px 5px;
         margin: 5px 5px;
-            color: #FEE206;
-    }
+        color: #FEE206;}
+    
 .content1 p {font-size: 2rem;}
 .content2 h5{text-align: justify; 
     font-weight: bold;
                 
 }
 .content2 p {font-size: 2rem;
+    
 } 
+
+.content3 p
+
+{       font-size: 1.5rem;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin right:auto;
+        float:none;
+        margin-top: 5px;
+        width: 100%;}
+
+
 .image p {text-align: center;
 font-size: 10px;
 }
  
 .title h3 {text-align: center;}
-.panel{width:100%;
-    text-align: center;
-    display: block;
-    float:none;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+.panel{
+    text-align:center;
+        display: flex;
+        margin-left:0;
+        margin-right: auto;
+        float:none;
+        margin-bottom: 40px;
+        width:100%;
 }
 .panelimage{width:30.66%;
  text-align: center;
-    display: block;
+    display: block; 
     float:none;
     margin-left: auto;
     margin-right: auto;
@@ -224,7 +230,26 @@ font-size: 10px;
 .paneltitle h1 {font-size: 6rem;}
 .paneltitle h2{font-size: 2.5rem;}
       
+.image3{
+    
+     text-align:center;
+        display: flex;
+        margin-left:0;
+        margin-right: auto;
+        float:none;
+        margin-bottom: 20px;
+        width:100%;
+    margin-top: 20px;
+}
 
+.blogimg2{
+     text-align: center;
+        display:block;
+        float:none;
+        width:48%;
+        padding: 10px 10px;
+    
+}
   /* Offsets */
   .offset-by-one.column,
   .offset-by-one.columns          { margin-left: 8.66666666667%; }
@@ -278,14 +303,12 @@ body
 background: #614385; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #614385 , #516395); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #614385 , #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-        
-        
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+
+    font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222; }
+  color: #fff; }
 
 
 
@@ -321,8 +344,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 a {
   color: #1EAEDB; }
 a:hover {
-  
-}
+  color: #0FA0CE; }
 
 
 /* Buttons
@@ -338,7 +360,7 @@ input[type="button"] {
   color: #555;
   text-align: center;
   font-size: 11px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -370,9 +392,9 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
     padding: ;
-  color: #fff;
-  background-color: #614385;
-  border: 2px solid #FEE206; 
+  color: #FEE206;
+  background-color: #393939;
+  border: 2px solid white; 
 
 }
 .button.button-primary:hover,
@@ -386,8 +408,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #FEE206;
-  border-color: #fff; }
+  background-color: #614385;
+  border-color: #1EAEDB; }
 
 
 /* Forms
@@ -588,7 +610,7 @@ there.
   .container {
     width: 97%;
     padding: 0;
-    text-align: center;
+    text-align: center; 
     color: white;
    
           
@@ -621,5 +643,3 @@ there.
       
         
     }
-
-
