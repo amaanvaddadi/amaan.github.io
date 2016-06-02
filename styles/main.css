@@ -91,7 +91,7 @@ letter-spacing: 0.1em;}
       .blogimg{
                 
         text-align: center;
-        display:block;
+        display:flex    ;
         float:none;
         width:30%;
         padding: 10px 10px;
