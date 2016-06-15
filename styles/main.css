@@ -185,6 +185,11 @@ img{
     
 } 
 
+.content2 #pbold {
+    font-size: 2.1rem;
+    color: yellow;
+    font-weight: bold;}
+
 .content3 p
 
 {       font-size: 1.5rem;
@@ -195,7 +200,19 @@ img{
         float:none;
         margin-top: 5px;
         width: 100%;}
+.pcontent{  
 
+    display: block;
+    margin-left: 100px;
+    line-height: 0.7em;
+    padding-bottom: 10px;
+    border: 2px solid orange;
+    color:yellow;
+    background-color: #393939;
+}
+.pcontent p{
+    font-size: 2rem;
+    }
 
 .image p {text-align: center;
 font-size: 10px;

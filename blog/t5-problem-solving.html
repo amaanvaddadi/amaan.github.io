@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+    <title>Amaan Vaddadi Portfolio</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    
+<!--
+    <link rel="stylesheet" href="/styles/normalize.css">
+    <link rel="stylesheet" href="/styles/skeleton.css">
+-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" rel="stylesheet" type="text/css">
+    
+        <link rel="stylesheet" href="/styles/main.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+  </head>
+
+  <body>
+   
+   <body>
+        <div class="container">
+
+        <div class="header">
+    
+                <a class="button button-primary" href="/index.html">About</a>
+        
+                <a class="button button-primary" href="/blog/blog-template.html">Blogs</a>
+        
+               
+       
+                <a class="button button-primary" href="/contact.html">contact</a>
+       
+        </div>
+            
+       <div class="title">
+                
+                <h3>Technical Blog 5 - Problem Solving</h3>
+        </div> 
+            
+      
+    
+      
+    <div class="content2"> 
+            <h5> Problem solving </h5>
+            <p>
+              As a programmer I face several code issues some of which are simple and some complex. I particularly had to execute media query which basically means creating my website responsive to different screen sizes starting from mobile first and then gradually progressing to bigger screen sizes. I specifically had to dig through the entire working of a media query and check for codes that are universal for various phones, phablets and desktop. First step was to use developer tools to check responsiveness on various screen sizes. Then modify the code step by step and check for correctness. I had to use online forum like stack overflow, raise my query and wait for an appropriate response. Then try to run codes and repeat the process for compatibility. Many a times it can get frustrating as you may come across several dead ends. The trick is look at each line of code and check for correctness. Run the codes and check if it is executing the expected way. 
+
+            </p>
+
+            
+
+            <h5>Reflect on how confident you feel using the problem solving techniques and process:</h5>
+
+           <p id="pbold"> Pseudocode:</p>
+           <p>This method of problem solving has not yet been tried. My understanding says that this probably might be the best way to write a program. First write the code in an algorithm in plain English and then program using codes.</p>
+
+           <p id="pbold">Trying something:</p>
+           <p>Trying something may unexpectedly sometimes solve problems but may not be the best course of action. However this method could be great if you are new to coding and want to try and see how codes would effect the output.</p>
+           
+           <p id="pbold">Rubber ducky method:</p>
+           <p>Buying a duck and explaining your code line by line may not be the best technique at least for me. But I am going to give it a try !</p>
+           
+           <p id="pbold">Reading error messages:</p>
+           <p>Have not used an environment which throws an error message. However I may or may not be able to figure out the exact error unless the program shows error per line of code and facilitates bug fixes on the spot.</p>
+           
+           <p id="pbold">Console.logging:</p>
+           <p>Probably the most popular method for learners and veterans both alike. This method helps understand results per line of code execution and thereby helps recognise errors if any in very early stages of programming.</p>
+           
+           <p id="pbold">Googling:</p>
+           <p>So far the best way to figure out errors. Google provides ample sources and access to experts who review codes and also throw back answers with right explanations of what went wrong. I have strong dependency on google as i am still learning new languages and would be fairly be using it even when i reach a stage of expertise. With growing changes in the dev environment google will always be a much sought after resource.</p>
+           
+           <p id="pbold">Asking your peers for help:</p>
+           <p>Peers for help is handy and many a times quicker than other problem solving techniques. Peers with experience can share their expertise and recognise problems especially in a situation when solutions are quickly required</p>
+
+           <p id="pbold">Asking coaches for help:</p>
+           <p>I haven't yet asked coach for help but in certain situations I may need to if I have not understood the problem in the very first place.</p>
+
+           <p id="pbold">Improving your process with reflection</p>
+           <p>I definitely deploy self reflection as a method to re analyze the situation. knowing what wasn’t been done right after they have been fixed helps better understanding. </p>
+
+
+            <h5>Using the JS Array docs as a starting point, describe what these functions do in your own words:</h5>
+
+			<p id="pbold">.map()</p>
+			<p>This method creates a new array with the results of the calling function on every targeted element on the array. For example, if we need the square root of all elements in an array we could use map to target elements in an array and assign the result in a new variable.</p>
+				<div class= "pcontent">
+				<P>var numbers = [4, 9, 16]; </P>
+				<p> var roots = numbers.map(Math.sqrt);</p>
+				<p>// roots is now [2, 3, 4], numbers is still [4, 9, 16]</p>
+				</div>
+
+			<p id="pbold">.filter():</p>
+			<p>The filter() method creates a new array with all elements that pass the test implemented by the provided function. This method is quite handy to create an array out of an existing one with the required values. For Example: </p>
+				<div class= "pcontent">
+				<p>var numbers = [12, 35, 46, 77, 89, 104, 39];</p>
+				<p>function isBigEnough(value) {return value % 2===0;}</p>
+				<p>var filtered = numbers.filter(isBigEnough);</p>
+				<p> confirm(filtered);</p>
+				<p>// filters all even numbers within the array</p>
+				</div>
+
+
+			<p id="pbold">.reduce():</p>
+			<p>A method that takes a given array and reduces it to produce one result. For example, we can have an array with four elements and we want to add one with another.</p>
+           
+
+        </div>
+         <div class="header">
+               <a class="button button-primary" href="/blog/c1-reflection-blog.html">EDA Reflections</a>
+               <a class="button button-primary" href="/blog/c1-time-and-habits-blog.html">Productivity</a>
+               <a class="button button-primary" href="/blog/t2-html-css-dom-p1.html">Technical Blog 1</a>
+               <a class="button button-primary" href="/blog/t2-html-css-dom-p2.html">Technical Blog 2</a>
+               <a class="button button-primary" href="/blog/c2-emotional-intelligence.html">Emotional Intelligence</a>
+               <a class="button button-primary" href="/blog/t3-design-to-web-blog.html">Technical Blog 3</a>
+               <a class="button button-primary" href="/blog/c3-meditation-process.html">Meditation Process</a>
+               <a class="button button-primary" href="/blog/t4-javascript-basics.html">Javascript</a>
+                 <a class="button button-primary" href="/blog/c4-daily-mindfulness.html">Mindfullness</a>
+                  <a class="button button-primary" href="/blog/c5-self-confidence.html">Self-Awareness</a>
+                  <a class="button button-primary" href="/blog/t5-problem-solving.html">Problem Solving</a>
+            </div>
+
+         <div class="footer">
+            
+                <ul class= "icons"><a href="http://www.facebook.com"><img src='http://www.womenactionmedia.org/cms/assets/themes/crate/images/social/facebook.png' /> </a></ul>
+                <ul class= "icons"><a href="http://www.twitter.com"><img src='http://grfx.cstv.com/schools/wis/graphics/icon_twitter24.jpg' /> </a></ul>
+                <ul class= "icons"><a href="https://nz.linkedin.com"><img src='/images/linkedin.png'></a></ul>
+       </div>
+       <div class="footer">
+            <p class="copy"> &copy; 2016 Amaan Vaddadi</p>
+            </div>     
+       </div>
+       
+  
+  </body>
+</html>
+    
+    
+    
+
+
+
