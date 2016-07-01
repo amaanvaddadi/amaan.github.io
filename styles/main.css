@@ -9,23 +9,23 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-}   
+}
 .column,
 .columns {
   width: 100%;
   float: left;
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
- 
+
 
 
 
 /* For devices larger than 400px */
 
-     
 
-   
+
+
   .column,
   .columns {
     margin-left: 4%; }
@@ -52,52 +52,52 @@
     text-align: justify;
   margin: 10px 10px 10px 10px;
 letter-spacing: 0.1em;}
-    
-    .header     
-    { 
+
+    .header
+    {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-        float: none; 
+        float: none;
         display: inline-block;
         padding-top: 20px;
         padding-bottom: 20px;
-        width: 100%; 
+        width: 100%;
     }
-    
+
 
 .image
-    
+
     {   text-align: center;
         margin-left: auto;
         margin right:auto;
-        float:none;        
+        float:none;
         width: 100%;
-       
+
         }
 
-.image2   {  
-    
+.image2   {
+
         text-align:center;
         display: flex;
-        margin-left:0;  
+        margin-left:0;
         margin-right: auto;
         float:none;
         margin-bottom: 20px;
         width:100%;
-     
+
      }
 
       .blogimg{
-                
+
         text-align: center;
         display:flex    ;
         float:none;
         width:30%;
         padding: 10px 10px;
-        
+
     }
-img{ 
+img{
     border: 2px solid white;
      max-width: 100%;
     width: 100%;
@@ -132,58 +132,58 @@ img{
     }
 }
     .title              {
-        color: #FEE206;  
+        color: #FEE206;
         text-align: center;
         margin-left: auto;
         margin right:auto;
         float:none;
         margin-top: 5px;
         width: 100%; }
-    
+
 
     .blogtitle
-    
+
     {
      color: white;
-       
+
         text-align: center;
         margin-left: auto;
         margin right:auto;
         float:none;
         margin-top: 5px;
-        width: 100%; }  
- .blogtitle h1{ font-size: 3.5rem;}   
+        width: 100%; }
+ .blogtitle h1{ font-size: 3.5rem;}
     .blogtitle h2 { font-size: 2.5rem;}
 
 .content p{font-size: 2.0rem; }
     .footer {
         text-align: center;
         display: block;
-/*		margin: 0 auto 24px;*/
-		float:none;
+/*        margin: 0 auto 24px;*/
+        float:none;
         width: 100%;}
 
-.icons { 
+.icons {
         text-align: center;
         display: inline-block;
-		float: none;}
-    
+        float: none;}
+
     .copy{ text-align: center;
         margin-left: auto;
         margin-right: auto;
-        width:100%; 
+        width:100%;
         padding: 5px 5px;
         margin: 5px 5px;
         color: #FEE206;}
-    
+
 .content1 p {font-size: 2rem;}
-.content2 h5{text-align: justify; 
+.content2 h5{text-align: justify;
     font-weight: bold;
-                
+
 }
 .content2 p {font-size: 2rem;
-    
-} 
+
+}
 
 .content2 #pbold {
     font-size: 2.1rem;
@@ -200,7 +200,7 @@ img{
         float:none;
         margin-top: 5px;
         width: 100%;}
-.pcontent{  
+.pcontent{
 
     display: block;
     margin-left: 100px;
@@ -217,7 +217,7 @@ img{
 .image p {text-align: center;
 font-size: 10px;
 }
- 
+
 .title h3 {text-align: center;}
 .panel{
     text-align:center;
@@ -230,12 +230,12 @@ font-size: 10px;
 }
 .panelimage{width:30.66%;
  text-align: center;
-    display: block; 
+    display: block;
     float:none;
     margin-left: auto;
     margin-right: auto;
-    
-    
+
+
 }
 .paneltitle{ width: 65.33%;
      text-align: center;
@@ -246,9 +246,9 @@ font-size: 10px;
 }
 .paneltitle h1 {font-size: 6rem;}
 .paneltitle h2{font-size: 2.5rem;}
-      
+
 .image3{
-    
+
      text-align:center;
         display: flex;
         margin-left:0;
@@ -265,7 +265,7 @@ font-size: 10px;
         float:none;
         width:48%;
         padding: 10px 10px;
-    
+
 }
   /* Offsets */
   .offset-by-one.column,
@@ -311,7 +311,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 
-body 
+body
 
 {
 
@@ -411,7 +411,7 @@ input[type="button"].button-primary {
     padding: ;
   color: #FEE206;
   background-color: #393939;
-  border: 2px solid white; 
+  border: 2px solid white;
 
 }
 .button.button-primary:hover,
@@ -507,7 +507,11 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+font-size: 18px;
+text-align: left;
+}
+
 
 
 /* Code
@@ -627,36 +631,36 @@ there.
   .container {
     width: 97%;
     padding: 0;
-    text-align: center; 
+    text-align: center;
     color: white;
-   
-          
-    }.icons { 
+
+
+    }.icons {
         text-align: center;
         display: inline-block;
-		float: none;}
-    
+        float: none;}
+
 }
 
 
 /* For devices larger than 550px */
-@media (min-width: 550px) 
+@media (min-width: 550px)
 {
   .container {
     width: 80%;
     padding: 0;
     text-align: center;
     color: white;
-           
+
     }
-    
-   
-    
-    .icons { 
-        
+
+
+
+    .icons {
+
         text-align: center;
         display: inline-block;
-		float: none;}    
-      
-        
+        float: none;}
+
+
     }
